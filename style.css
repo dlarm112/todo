@@ -1,0 +1,38 @@
+html {
+    font-family: 'Rammetto One', cursive;
+    background-color: #eeeeee;
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    font-family: 'Rammetto One', cursive;
+    background-color: #97d0ef;
+    border-radius: 50px;
+    margin-top: 30px;
+    padding: 20px;
+    height: 100%;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+    height: 100%;
+
+}
+
+ul{
+    text-align: left;
+    padding: 10px
+}
+
+input{
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+h1{
+    color:white;
+}
