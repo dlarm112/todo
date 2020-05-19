@@ -1,38 +1,78 @@
+@import url(//db.onlinewebfonts.com/c/35e76f5f0525b62c69ebade19a3ee8f4?family=Futura);
+
 html {
-    font-family: 'Rammetto One', cursive;
+    font-family: 'Futura' ,'Rammetto One', cursive;
     background-color: #eeeeee;
     height: 100%;
 }
 
 body {
-    text-align: center;
-    font-family: 'Rammetto One', cursive;
+
+    font-family: 'Futura' ,'Rammetto One', cursive;
     background-color: #97d0ef;
     border-radius: 50px;
     margin-top: 30px;
     padding: 20px;
     height: 100%;
-}
-
-.col-centered {
-    float: none;
-    margin: 0 auto;
-    height: 100%;
-
+    background-image: url(/backkakao.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 ul{
     text-align: left;
-    padding: 10px
+
+    padding-left: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 5px 0px;
+    border-radius: 10px;
 }
 
 input{
     border-style: none;
-    padding: 10px;
-    border-radius: 10px;
+    height: 30px;
     border: none;
+    margin: auto;
+    padding-left: 10px;
+    width: 100%;
+}
+input:focus{
+    border-style: none;
+    border: none;
+    outline-width: 0;
 }
 
 h1{
+    color: black;
+    text-align: center;
+}
+
+button {
+    color: white;
+    border: none;
+    background-color: black;
+    padding: 3px;
+    width: 80px;
+    transition-duration: .3s;
+}
+button:hover {
     color:white;
+    border: none;
+    background-color: rgb(212,35,35);
+    padding: 3px;
+    width: 80px;
+    transition-duration: .3s;
+}
+a:link, a:visited {
+    background-color: rgb(212,35,35);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 10px;
+  }
+
+.right{
+    text-align: right;
 }
